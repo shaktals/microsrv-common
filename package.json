@@ -1,6 +1,6 @@
 {
   "name": "@shaktickets/common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -10,10 +10,14 @@
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "del ./build/*",
-    "pub": "npm version patch && npm run build && npm publish"
+    "pub": "npm run build && npm publish"
   },
   "author": "Talles Hentges",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaktals/microsrv-common"
+  },
   "devDependencies": {
     "del-cli": "^3.0.1",
     "typescript": "^4.2.3"
