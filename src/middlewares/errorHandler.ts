@@ -9,5 +9,6 @@ export const errorHandler = (err: Error, req: Request, res: Response, next: Next
 
   const customError: ErrorObject[] = [{ message: 'Something went wrong' }]
 
+  console.error(err)
   res.status(400).send({ errors: customError })
 }
