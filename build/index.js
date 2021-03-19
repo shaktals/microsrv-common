@@ -20,3 +20,8 @@ __exportStar(require("./middlewares/currentUser"), exports);
 __exportStar(require("./middlewares/errorHandler"), exports);
 __exportStar(require("./middlewares/requireAuth"), exports);
 __exportStar(require("./middlewares/validateRequest"), exports);
+__exportStar(require("./events/tickets/TicketCreatedEvent"), exports);
+__exportStar(require("./events/tickets/TicketUpdatedEvent"), exports);
+__exportStar(require("./events/BaseListener"), exports);
+__exportStar(require("./events/BasePublisher"), exports);
+__exportStar(require("./events/Subjects"), exports);

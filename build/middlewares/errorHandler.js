@@ -7,6 +7,7 @@ var errorHandler = function (err, req, res, next) {
         return res.status(err.statusCode).send({ errors: err.serializeErrors() });
     }
     var customError = [{ message: 'Something went wrong' }];
+    console.error(err);
     res.status(400).send({ errors: customError });
 };
 exports.errorHandler = errorHandler;
