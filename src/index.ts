@@ -12,6 +12,9 @@ export * from './middlewares/validateRequest'
 
 export * from './events/tickets/TicketCreatedEvent'
 export * from './events/tickets/TicketUpdatedEvent'
+
+export * from './events/types/OrderStatus'
+
 export * from './events/BaseListener'
 export * from './events/BasePublisher'
 export * from './events/Subjects'
