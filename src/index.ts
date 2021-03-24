@@ -18,5 +18,8 @@ export * from './events/types/OrderStatus'
 export * from './events/BaseListener'
 export * from './events/BasePublisher'
 export * from './events/Subjects'
+
 export * from './events/orders/OrderCreated'
 export * from './events/orders/OrderCancelled'
+
+export * from './events/expiration/ExpirationCompleteEvent'
