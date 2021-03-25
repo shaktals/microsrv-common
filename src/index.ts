@@ -24,4 +24,4 @@ export * from './events/orders/OrderCancelled'
 
 export * from './events/expiration/ExpirationCompleteEvent'
 
-export * from './events/payments/PayrmentCreated'
+export * from './events/payments/PayrmentCreatedEvent'
